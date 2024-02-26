@@ -1,0 +1,24 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+.primeira-letra::first-letter{
+    font-size: 62px;
+}
+
+.primeira-linha::first-line{
+    color: violet;
+}
+
+li::marker{
+    color: red;
+    font-size: 32px;
+}
+
+.antes::before{
+    content: url(./src/logo.png);
+}
+
+.depois::after{
+    content: url(./src/logo.png);
+}
